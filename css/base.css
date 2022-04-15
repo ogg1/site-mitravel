@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'SFProDisplay', sans-serif;
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: 1626px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-container {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-reset {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--color-opacity);
+}
+
+.section__title--center {
+    text-align: center;
+    max-width: none;
+}
